@@ -1,9 +1,8 @@
 Credit Risk Analysis Report
-Based on the output from our Logistic Regression model, we find the following results:
 
 For the "0" class (No Risk):
 
-The model achieved a precision of 1.00, meaning that every instance the model identified as No Risk was indeed No Risk. This shows that our model is very precise in detecting No Risk cases.
+The model achieved a precision of 1.00, meaning that in every instance the model identified as No Risk was indeed No Risk. This shows that our model is very precise in detecting No Risk cases.
 The recall is 0.99, suggesting that the model was able to correctly identify 99% of all actual No Risk cases. This high recall score indicates the model's strong ability to detect the true No Risk cases.
 The F1-score, which is the harmonic mean of precision and recall, is 1.00. This is the highest possible value, suggesting that the model has achieved a perfect balance between precision and recall for the No Risk cases.
 For the "1" class (Risk):
